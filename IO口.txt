@@ -1,0 +1,25 @@
+红外：
+	D0：	PB9
+
+OLED：
+	SDA：	PB6
+	SCL：	PB7
+
+继电器：
+	NI:	PB10
+
+BEEP:
+	IN：	PB11
+
+LED：
+	LED1：	PB13	（绿色）
+	LED2：	PB14	（红色）
+
+KEY：
+	PB0	1	2	3	back（返回）
+	PB1	4	5	6	↑
+	PB2	7	8	9	↓
+	PB3	*	0	#	OK
+		PC0	PC1	PC2	PC3
+
+	
