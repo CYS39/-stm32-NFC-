@@ -1,5 +1,10 @@
+/*
+ *	作者：		39度C
+ *	创作时间：2022.5.15
+ *	CSDN博客：https://blog.csdn.net/weixin_45915259?type=blog
+ *	项目教程：https://blog.csdn.net/weixin_45915259/article/details/124465642
+ */
 #include "name.h"
-
 
 void init(){
 
