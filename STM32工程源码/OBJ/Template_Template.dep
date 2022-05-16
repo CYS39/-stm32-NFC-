@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (.\main.c)(0x627B7E2D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\..\Template【F1工程模板】-I.\RTE\_Template-IC:\Keil_MDk\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_MDk\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x6280730D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\..\Template【F1工程模板】-I.\RTE\_Template-IC:\Keil_MDk\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_MDk\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (name.h)(0x627A49FC)
 I (..\SYSTEM\sys\sys.h)(0x62806EEF)
 I (..\USER\stm32f10x.h)(0x5E9087F4)
@@ -42,7 +42,7 @@ I (oled.h)(0x626FA930)
 I (oled_font.h)(0x626FA6EA)
 I (rtc.h)(0x6273D584)
 I (time3.h)(0x626D320A)
-I (stmflash.h)(0x626E9A91)
+I (stmflash.h)(0x62825A81)
 F (.\stm32f10x_it.c)(0x4EBEACB0)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\..\Template【F1工程模板】-I.\RTE\_Template-IC:\Keil_MDk\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_MDk\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x4D99A426)
 I (stm32f10x.h)(0x5E9087F4)
@@ -881,7 +881,7 @@ I (oled.h)(0x626FA930)
 I (oled_font.h)(0x626FA6EA)
 I (rtc.h)(0x6273D584)
 I (time3.h)(0x626D320A)
-I (stmflash.h)(0x626E9A91)
+I (stmflash.h)(0x62825A81)
 F (.\led.c)(0x626F7639)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\..\Template【F1工程模板】-I.\RTE\_Template-IC:\Keil_MDk\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_MDk\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
 I (name.h)(0x627A49FC)
 I (..\SYSTEM\sys\sys.h)(0x62806EEF)
@@ -925,7 +925,7 @@ I (oled.h)(0x626FA930)
 I (oled_font.h)(0x626FA6EA)
 I (rtc.h)(0x6273D584)
 I (time3.h)(0x626D320A)
-I (stmflash.h)(0x626E9A91)
+I (stmflash.h)(0x62825A81)
 F (.\remote.c)(0x627A4C5C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\..\Template【F1工程模板】-I.\RTE\_Template-IC:\Keil_MDk\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_MDk\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\remote.o --omf_browse ..\obj\remote.crf --depend ..\obj\remote.d)
 I (name.h)(0x627A49FC)
 I (..\SYSTEM\sys\sys.h)(0x62806EEF)
@@ -969,7 +969,7 @@ I (oled.h)(0x626FA930)
 I (oled_font.h)(0x626FA6EA)
 I (rtc.h)(0x6273D584)
 I (time3.h)(0x626D320A)
-I (stmflash.h)(0x626E9A91)
+I (stmflash.h)(0x62825A81)
 F (.\iic.c)(0x6267EB0B)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\..\Template【F1工程模板】-I.\RTE\_Template-IC:\Keil_MDk\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_MDk\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\iic.o --omf_browse ..\obj\iic.crf --depend ..\obj\iic.d)
 I (iic.h)(0x626BC076)
 I (..\SYSTEM\sys\sys.h)(0x62806EEF)
@@ -1045,7 +1045,7 @@ I (oled.h)(0x626FA930)
 I (oled_font.h)(0x626FA6EA)
 I (rtc.h)(0x6273D584)
 I (time3.h)(0x626D320A)
-I (stmflash.h)(0x626E9A91)
+I (stmflash.h)(0x62825A81)
 F (.\rtc.c)(0x6278A716)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\..\Template【F1工程模板】-I.\RTE\_Template-IC:\Keil_MDk\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_MDk\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\rtc.o --omf_browse ..\obj\rtc.crf --depend ..\obj\rtc.d)
 I (name.h)(0x627A49FC)
 I (..\SYSTEM\sys\sys.h)(0x62806EEF)
@@ -1089,7 +1089,7 @@ I (oled.h)(0x626FA930)
 I (oled_font.h)(0x626FA6EA)
 I (rtc.h)(0x6273D584)
 I (time3.h)(0x626D320A)
-I (stmflash.h)(0x626E9A91)
+I (stmflash.h)(0x62825A81)
 F (.\name.c)(0x627B833C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\..\Template【F1工程模板】-I.\RTE\_Template-IC:\Keil_MDk\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_MDk\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\name.o --omf_browse ..\obj\name.crf --depend ..\obj\name.d)
 I (name.h)(0x627A49FC)
 I (..\SYSTEM\sys\sys.h)(0x62806EEF)
@@ -1133,7 +1133,7 @@ I (oled.h)(0x626FA930)
 I (oled_font.h)(0x626FA6EA)
 I (rtc.h)(0x6273D584)
 I (time3.h)(0x626D320A)
-I (stmflash.h)(0x626E9A91)
+I (stmflash.h)(0x62825A81)
 F (.\time3.c)(0x626E15D4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\..\Template【F1工程模板】-I.\RTE\_Template-IC:\Keil_MDk\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_MDk\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\time3.o --omf_browse ..\obj\time3.crf --depend ..\obj\time3.d)
 I (name.h)(0x627A49FC)
 I (..\SYSTEM\sys\sys.h)(0x62806EEF)
@@ -1177,9 +1177,9 @@ I (oled.h)(0x626FA930)
 I (oled_font.h)(0x626FA6EA)
 I (rtc.h)(0x6273D584)
 I (time3.h)(0x626D320A)
-I (stmflash.h)(0x626E9A91)
+I (stmflash.h)(0x62825A81)
 F (.\stmflash.c)(0x626E578C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\..\Template【F1工程模板】-I.\RTE\_Template-IC:\Keil_MDk\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_MDk\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stmflash.o --omf_browse ..\obj\stmflash.crf --depend ..\obj\stmflash.d)
-I (stmflash.h)(0x626E9A91)
+I (stmflash.h)(0x62825A81)
 I (..\SYSTEM\sys\sys.h)(0x62806EEF)
 I (..\USER\stm32f10x.h)(0x5E9087F4)
 I (..\CORE\core_cm3.h)(0x5E9086C0)
@@ -1256,4 +1256,4 @@ I (oled.h)(0x626FA930)
 I (oled_font.h)(0x626FA6EA)
 I (rtc.h)(0x6273D584)
 I (time3.h)(0x626D320A)
-I (stmflash.h)(0x626E9A91)
+I (stmflash.h)(0x62825A81)
