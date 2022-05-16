@@ -30,33 +30,6 @@ void Test_Write(u32 WriteAddr,u16 WriteData);
 
 
 
-/*
-flash写入一次为十六为两个字节，所以地址每次写入会加二 STMFLASH_Write传入的地址也必须为二的倍数
-STMFLASH_Write函数传入八位数组会被强制转换成十六位数据 两个八位合成一个十六位
-所以四个八位数据写入 STMFLASH_Write的参数NumToRead应该为2  因为四个八位数据会被合成两个十六位数据
-但地址是增加了8
-flash一位地址存一个八位数据  但一次写十六位数据，地址加二
-
-
-
-	
-char pass[8] = {2, 3, 4, 5, 6, 1, 0, 0};
-char dat[16];
-
-char 是四位
-
-STMFLASH_Write(FLASH_SAVE_ADDR, (u16*)pass, 4);
-STMFLASH_Read(FLASH_SAVE_ADDR, (u16*)dat, 4);
-
-当
-int pass[8] = {2, 3, 4, 5, 6, 1, 0, 0};
-char dat[16];
-dat是四位存放pass的一个数。
-
-实验，数组不同数据类型存放，得出结论。
-
-
-*/
 
 
 
